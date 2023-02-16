@@ -1,27 +1,125 @@
-title {
+body {
+    background-color:white;
+    background-image: url("https://media.istockphoto.com/id/1130416046/video/bright-background.jpg?s=640x640&k=20&c=kqvqDMJk8FFAIqTLBuQHyDa2UJqOtwIpe6TWB8mYyF0=");
+    position: relative;
     
 }
 
 
-nav {
-    background-color: aqua;
-    display:flex;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 15px;
-
+nav h1{
+    /* background-color: rgb(83, 86, 86); */
+    display:inline-block;
+    float:left;
+    font-family:Arial, Helvetica, sans-serif;  
+    padding: 0px; 
+    font-size: large;
 
 }
 
-nav a {
-    text-align: center;
-    text-decoration: none;
-    padding: 20px;
-    line-height: 500%;
 
+figure {
+    background-image: url("https://ca.slack-edge.com/T04KLTMJP6F-U04M57UDMTM-eb627602d3bc-512");
+    width: 50%;
+    max-height: max-content;
+    position:relative;
+    margin: 5%;
+    padding: 20%;
+    top: -75px;
+    
+}
+
+nav a {
+    /* float: top; */
+    text-align:right;
+    text-decoration: none;
+    float: right;
+    display: inline-block;
+    color:black;
+    padding: 10px;
+    font-size:large;
+    margin: 10px;
+    right: -20px;
+    top: 50px;
+   
+
+}
+
+header {
+    background-color: lightslategrey;
+    padding: 4%;
+}
+
+figure {
+    /* padding: 20%; */
+    
+}
+
+
+article {
+    /* padding: 0%; */
+    /* margin: 0%; */
+    float: right;
+    right: -25px;
+    position: relative;
+    top: -150px;
+    font-size: large;
+    /* background-color:lightslategray; */
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
     
 
 .header {
-    background-color: aqua;
+    background:transparent;
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: x-small;
+
+    
 }
+
+.header h1 {
+    /* display: inline-block;
+    margin-left: 20px;
+    float: left; */
+}
+
+.smart-goals, .triangle, .business-plan, .comparative {
+    display: inline;
+    position: relative;
+    float: middle;
+    width: 30%;
+    right: 6px;
+    margin: 1px;
+    top: -0px;
+
+}
+
+section {
+    width: 100%;
+    position: relative;
+    float:right;
+    right: -100px;
+    top: -140px;
+}
+
+/* .smart-goals, .triangle, .blue-graph, .business-plan, {
+    width: 10%;
+    display: relative;
+    float:none;
+    right: 50px;
+    top: 0px;
+    
+} */
+
+
+
+
+/* .Lanrepic {
+    height: 800px;
+    width: 100%;
+    background-image: url("https://ca.slack-edge.com/T04KLTMJP6F-U04M57UDMTM-2ae09ffef6c7-512");
+    background-size: cover;
+    background-position: center;
+
+} */
