@@ -8,6 +8,8 @@ body {
     background-color:white;
     background-image: url("https://media.istockphoto.com/id/1130416046/video/bright-background.jpg?s=640x640&k=20&c=kqvqDMJk8FFAIqTLBuQHyDa2UJqOtwIpe6TWB8mYyF0=");
     /* position: relative; */
+    width: 100%;
+    position: absolute;
     
     
 }
@@ -16,7 +18,7 @@ body {
 nav h1{
     /* background-color: rgb(83, 86, 86); */
     display:inline-block;
-    float:left;
+    /* float:left; */
     font-family:Arial, Helvetica, sans-serif; 
     padding: 0px; 
     font-size: large;
@@ -26,11 +28,11 @@ nav h1{
 
 figure {
     background-image: url("https://ca.slack-edge.com/T04KLTMJP6F-U04M57UDMTM-eb627602d3bc-512");
-    width: 100%;
+    width: 90%;
     height: auto;
     /* max-height: max-content; */
-    position:relative;
-    float: left;
+    /* position:relative;
+    float: left; */
     left: -90px;
     margin: 5%;
     padding: 13%;
@@ -39,20 +41,21 @@ figure {
 }
 
 nav a {
-    /* float: top; */
-    text-align:right;
-    text-decoration: none;
-    float: right;
-    display: inline-block;
-    color:black;
-    padding: 10px;
-    font-size:large;
-    margin: 10px;
-    right: -20px;
-    top: 50px;
-   
 
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    padding: 7px;
+    font-size: large;
+    margin: 0px;
+    right: 20px;
+    top: 50px;
+    float: right;
+    width: 10%;
+    padding: 0%;
 }
+
 
 header {
     background-color:lightslategray;
@@ -67,10 +70,10 @@ figure {
 
 article {
     /* padding: 0%; */
-    /* margin: 0%; */
-    float: right;
+    flex:10px;
+    /* float: right; */
     right: -25px;
-    position: relative;
+    /* position: relative; */
     top: -150px;
     font-size: large;
     /* background-color:lightslategray; */
@@ -94,11 +97,15 @@ article {
     float: left; */
 }
 
+.project1{
+    width: 100%;
+}
+
 .smart-goals, .triangle, .business-plan, .comparative {
     display: inline;
-    position: relative;
-    float: middle;
-    width: 30%;
+    /* position: relative;
+    float: middle; */
+    width: 33%;
     right: 6px;
     margin: 1px;
     top: -0px;
@@ -107,19 +114,27 @@ article {
 
 section {
     width: 100%;
-    position: relative;
-    float:right;
+    /* position: relative;
+    float:right; */
     right: -100px;
-    top: -140px;
+    top: 10px;
 }
 
 footer {
-    padding: 4%;
+    padding: 0%;
     margin: 0%;
-    background-color: darkolivegreen; 
+    background-color:lightslategray;
     
     
 }
+
+@media screen and (max-width: 1200px){
+    colums: {
+        width: 50%;
+    }
+}
+    
+    
 /* .smart-goals, .triangle, .blue-graph, .business-plan, {
     width: 10%;
     display: relative;
