@@ -7,21 +7,17 @@
 body {
     background-color:white;
     background-image: url("https://media.istockphoto.com/id/1130416046/video/bright-background.jpg?s=640x640&k=20&c=kqvqDMJk8FFAIqTLBuQHyDa2UJqOtwIpe6TWB8mYyF0=");
-    /* position: relative; */
     width: 100%;
     position: absolute;
-    
-    
+        
 }
 
-
-nav h1{
-    /* background-color: rgb(83, 86, 86); */
+nav h1 { 
     display:inline-block;
-    /* float:left; */
     font-family:Arial, Helvetica, sans-serif; 
     padding: 0px; 
     font-size: large;
+    float: left;
 
 }
 
@@ -30,9 +26,6 @@ figure {
     background-image: url("https://ca.slack-edge.com/T04KLTMJP6F-U04M57UDMTM-eb627602d3bc-512");
     width: 90%;
     height: auto;
-    /* max-height: max-content; */
-    /* position:relative;
-    float: left; */
     left: -90px;
     margin: 5%;
     padding: 13%;
@@ -42,14 +35,12 @@ figure {
 
 nav a {
 
-    text-align: right;
+    text-align: center;
     text-decoration: none;
     display: inline-block;
     color: black;
     padding: 7px;
-    font-size: large;
-    margin: 0px;
-    right: 20px;
+    font-size: 20px;
     top: 50px;
     float: right;
     width: 10%;
@@ -62,23 +53,12 @@ header {
     padding: 4%;
 }
 
-figure {
-    /* padding: 20%; */
-    
-}
-
-
 article {
-    /* padding: 0%; */
     flex:10px;
-    /* float: right; */
     right: -25px;
-    /* position: relative; */
     top: -150px;
     font-size: large;
-    /* background-color:lightslategray; */
     font-family: Arial, Helvetica, sans-serif;
-
 }
 
 .avatar {
@@ -91,15 +71,12 @@ article {
     color: black;
     font-family:Arial, Helvetica, sans-serif;
     font-size: x-small;
+    
 
     
 }
 
-.header h1 {
-    /* display: inline-block;
-    margin-left: 20px;
-    float: left; */
-}
+
 
 .project1{
     width: 100%;
@@ -107,8 +84,6 @@ article {
 
 .smart-goals, .triangle, .business-plan, .comparative {
     display: inline;
-    /* position: relative;
-    float: middle; */
     width: 33%;
     right: 6px;
     margin: 1px;
@@ -118,53 +93,35 @@ article {
 
 section {
     width: 100%;
-    /* position: relative;
-    float:right; */
     right: -100px;
-    top: 10px;
+
 }
 
 main {
     font-family: Arial, Helvetica, sans-serif;
+    top: 10%;
 }
 
 footer {
-    padding: 3%;
+    padding: 1%;
     margin: 0%;
     background-color:lightslategray;
     font-family:Arial, Helvetica, sans-serif;
     display: relative;
+    text-align: center;
+}
+
+.social img {
+    max-width: 2%;
+    display: inline;
+    position: relative;
+    float: center;
+    right: -0%;
     
-   
-    
+}
+.footer h6 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
     
     
 }
-
-@media screen and (max-width: 1200px){
-    colums: {
-        width: 50%;
-    }
-}
-    
-    
-/* .smart-goals, .triangle, .blue-graph, .business-plan, {
-    width: 10%;
-    display: relative;
-    float:none;
-    right: 50px;
-    top: 0px;
-    
-} */
-
-
-
-
-/* .Lanrepic {
-    height: 800px;
-    width: 100%;
-    background-image: url("https://ca.slack-edge.com/T04KLTMJP6F-U04M57UDMTM-2ae09ffef6c7-512");
-    background-size: cover;
-    background-position: center;
-
-} */
