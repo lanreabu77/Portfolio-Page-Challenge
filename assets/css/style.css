@@ -82,7 +82,7 @@ article {
     width: 100%;
 }
 
-.smart-goals, .triangle, .business-plan, .comparative {
+.smart-goals, .business-plan, .comparative {
     display: inline;
     width: 33%;
     right: 6px;
@@ -97,6 +97,17 @@ article {
     margin-right: auto;
     width: 50%;
     
+    
+
+}
+
+.triangle {
+    display: inline;
+    width: 33.2%;
+    right: 6px;
+    margin: 1px;
+    top: -0px;
+    height: 332px;
 
 }
 section {
